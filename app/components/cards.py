@@ -11,6 +11,6 @@ def card1():
                 dcc.Input(id='input-field', type='text', placeholder='Enter value') # Add the input field to the card
             ]
         ),
-        className="mb-3",
+        className="col-md-6",
     )
     return card

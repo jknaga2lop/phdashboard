@@ -7,12 +7,16 @@ def create_layout():
         [
             dbc.Row(
                 [
-                    headers.header1(),  # Call create_header function from header module
+                    headers.header1() 
                 ]
             ),
             dbc.Row(
                 [
-                    cards.card1()  # Call create_card function from card module
+                    dbc.Col(
+                        [
+                            cards.card1()  
+                        ]
+                    )
                 ]
             )
         ]
